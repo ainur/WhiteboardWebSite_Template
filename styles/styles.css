@@ -1,0 +1,132 @@
+﻿html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 76% arial,sans-serif;
+}
+p {
+	margin: 0 10px 10px;
+}
+a {
+	display: block;
+	color: #981793;
+	padding: 10px;
+}
+div#container {
+	width: 900px; /* Main width for all site*/;
+	margin: auto; /* Alignment Center */
+}
+div#header {
+	background-color: #000000;
+	height: 50px;
+}
+div#header h1 {
+	margin: 0;
+	line-height: 50px;
+	padding-left: 190px;
+	color: #ffffff;
+}
+div#content p {
+	line-height: 1.4;
+}
+div#navigation {
+	background: #B9CAFF;
+}
+div#extra {
+	background: #FF8539;
+}
+div#footer {
+	background: #333;
+	color: #FFF;
+}
+div#footer p {
+	margin: 0;
+	padding: 5px 10px;
+}
+div#wrapper {
+	float: left;
+	width: 100%;
+	border: 1px black solid;
+	border-top: none;
+	border-bottom: none;
+}
+div#content {
+	margin: 0 33% 0 200px;
+}
+div#navigation {
+	float: left;
+	width: 200px;
+	margin-left: -100%;
+}
+div#sitenav {
+	background-image: url('../images/DistanceEd.jpg');
+	height: 250px;
+	border: 1px black solid;
+	border-top: none;
+	border-bottom: none;
+}
+div#mainnav {
+	float: left;
+	width: 100%;
+}
+div#mainnav ul {
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+	width: 96%;
+	padding: 0;
+	padding-top: 65px;
+}
+div#mainnav li {
+	float: left;
+	border-left: 1px #9E1B34 solid;
+	height: 20px;
+}
+div#mainnav li a {
+	font-family: Arial, Helvetica, Tahoma;
+	font-weight: bold;
+	font-size: 1.1em;
+	display: block;
+	padding: 3px 26px 1px 4px;
+	color: #000;
+	text-decoration: none;
+}
+div#mainnav li a:hover {
+	color: #9E1B34;
+	border-bottom: 3px #9E1B34 solid;
+}
+div#metanav {
+	width: 100%;
+}
+div#metanav ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	float:right;
+}
+div#metanav li{
+	float:left;
+}
+div#metanav li a {
+	font-size:1em;
+	display: block;
+	color: #4A869E;
+	text-decoration: none;
+	padding: 7px 10px 1px 4px;
+	text-transform:lowercase;
+}
+div#metanav li a:hover{
+	text-decoration:underline;
+}
+div#extra {
+	float: left;
+	width: 33%;
+	margin-left: -33.3%;
+}
+div#footer {
+	clear: left;
+	width: 100%;
+}
